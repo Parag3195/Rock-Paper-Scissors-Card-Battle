@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RPS Card Battle</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 class="title">Rock • Paper • Scissors — Card Battle</h1>
+
+  <div class="history">
+    
+
+    <div class="computer-history">
+      <h3>Computer</h3>
+      <div id="computerDots" class="dots"></div>
+    </div>
+
+    <div class="player-history">
+      <h3>Player</h3>
+      <div id="playerDots" class="dots"></div>
+    </div>
+  </div>
+
+ <div class="arena">
+     <div id="computerCard" class="battle-card placeholder">COMPUTER</div>
+  <div id="playerCard" class="battle-card placeholder">PLAYER</div>
+</div>
+
+
+  <div class="choices">
+    <img class="choice" data-choice="stone" src="stone.png" alt="stone" />
+    <img class="choice" data-choice="paper" src="paper.png" alt="paper" />
+    <img class="choice" data-choice="scissor" src="scissor.png" alt="scissor" />
+  </div>
+
+  <!-- result popup -->
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <h2 id="resultText"></h2>
+      <button id="nextBtn">Play Again</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
