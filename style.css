@@ -1,5 +1,5 @@
 body {
-  font-family: 'Comic Sans MS', cursive;
+
   background: linear-gradient(135deg, #ffee9e, #ffd4b8);
   text-align: center;
   margin: 0;
@@ -198,3 +198,4 @@ body {
     width: 90px;
   }
 }
+
